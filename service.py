@@ -1,6 +1,6 @@
 from single_city import City
 
-city_name = input('Provide city to check upcoming weather forecast: ')
+city_name = (input('Provide city to check upcoming weather forecast: ')).title()
 
 city = City(city_name)
 
